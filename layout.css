@@ -1,0 +1,222 @@
+.infobalk{
+    width: 300px;
+    height: 500px;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-style: solid;
+}
+.centered {
+    align-content: center;
+    overflow-x: auto;
+    width: 70vw;
+    margin-left: 10%;
+    background-color: #5e6681;
+    box-shadow: 0 0 20px 12px #ffeba7;
+    margin-top: 20vh;
+    height: 120vh;
+    z-index: 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.back {
+    z-index: 2;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.back:hover {
+    background-color: lightgray;
+}
+
+.vakken {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.vakken:hover{
+    background: rgba(59, 190, 216, 0.5);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgba(42, 169, 195, 0.5);
+}
+
+.hoofdmap {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-image: url("images/Volledige_kaart.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    height: 500px;
+    width: 500px;
+    z-index: 0;
+}
+
+.menubar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;  /* Vertical alignment */
+    float: left;
+    clear: both;
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    background-color: #2a2b38;
+    margin-top: 0;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.a {
+    font-size: 250%;
+    padding-right: 4%;
+    color: #ffeba7;
+    text-shadow: 0 0 5px #ffeba7;
+    transition: all .3s ease-in-out;
+}
+
+.a:hover {
+    color: #5e6681;
+    text-shadow: 0 0 5px #5e6681;
+    transition: all .3s ease-in-out;
+}
+
+.Login{
+    display: flex;
+    align-items: center;  /* Vertical alignment */
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 250%;
+    height: 70%;
+    width: 15%;
+    margin-right: 3%;
+    background-color: #ffeba7;
+    color: #5e6681;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+}
+
+.Login:hover {
+    background-color: #5e6681;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+
+.toevoegen {
+    display: flex;
+    margin-left: 2vw;
+}
+
+/* From Uiverse.io by alexruix */ 
+.card {
+    margin: 10% auto;
+    width: 190px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #2a2b38;
+}
+
+/*Inputs*/
+.field {
+ margin-top: .5rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: .5em;
+ background-color: #1f2029;
+ border-radius: 4px;
+ padding: .5em 1em;
+}
+
+.input-icon {
+ height: 1em;
+ width: 1em;
+ fill: #ffeba7;
+}
+
+.input-field {
+ background: none;
+ border: none;
+ outline: none;
+ width: 100%;
+ color: #d3d3d3;
+}
+
+/*Text*/
+.title {
+ margin-bottom: 1rem;
+ font-size: 1.5em;
+ font-weight: 500;
+ color: #f5f5f5;
+}
+
+/*Buttons*/
+.btn {
+ margin: 1rem;
+ border: none;
+ border-radius: 4px;
+ font-weight: bold;
+ font-size: .8em;
+ text-transform: uppercase;
+ padding: 0.6em 1.2em;
+ background-color: #ffeba7;
+ color: #5e6681;
+ box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+ transition: all .3s ease-in-out;
+}
+
+.btn-link {
+ color: #f5f5f5;
+ display: block;
+ font-size: .75em;
+ transition: color .3s ease-out;
+}
+
+/*Hover & focus*/
+.field input:focus::placeholder {
+ opacity: 0;
+ transition: opacity .3s;
+}
+
+.btn:hover {
+ background-color: #5e6681;
+ color: #ffeba7;
+ box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+
+.btn-link:hover {
+ color: #ffeba7;
+}
+
+.inlogpagina {
+    background-image: url('images/smart.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
