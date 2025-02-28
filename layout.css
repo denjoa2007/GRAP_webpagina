@@ -1,7 +1,6 @@
 /* nieuwe layout */
 
 
-
 /* oude layout  */
 .infobalk{
     width: 300px;
@@ -220,7 +219,7 @@ li {
 }
 
 .inlogpagina {
-    background-image: url('images/smart.jpg');
+    background-image: url('smart.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
